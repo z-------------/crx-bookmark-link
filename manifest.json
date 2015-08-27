@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Bookmark Links",
+    "description": "Adds a context menu item that allows you to bookmark links without having to visit them.",
+    "version": "0.0.1",
+    "permissions": [
+        "bookmarks",
+        "contextMenus",
+        "*://*/*"
+    ],
+    "background": {
+        "scripts": [ "js/background.js" ]
+    }
+}
